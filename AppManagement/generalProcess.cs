@@ -14,6 +14,8 @@ namespace AppManagement
 {
     class generalProcess
     {
+        Boolean ret = false;
+
         [DllImport("user32.dll")]
         static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);
 
@@ -65,17 +67,28 @@ namespace AppManagement
                     XmlElement UserElement = doc.CreateElement("App");//Element Ekledik.
                     UserElement.SetAttribute("Name", p.ProcessName);//elemente bir attribute atadık
 
-                    //Dropbox arka planda çalıştığı için mainWindowTitle boş atanıyor.
-                    //Bundan dolayı labeliınada processName veriyoruz.
-                    if (p.ProcessName == "Dropbox")
+                    //Dropbox skype gibi programlar bazen arka planda çalıştığı için mainWindowTitle boş atanıyor.
+                    //Bundan dolayı label olarak processName veriyoruz.
+                    XmlElement labelElement = doc.CreateElement("Label");
+
+                    switch (p.ProcessName)
                     {
-                        XmlElement labelElement = doc.CreateElement("Label");
-                        labelElement.InnerText = p.ProcessName;
-                        UserElement.AppendChild(labelElement);
+                        case "Dropbox":
+                            labelElement.InnerText = p.ProcessName;
+                            UserElement.AppendChild(labelElement);
+                            ret = true;
+                            break;
+
+                        case "Skype":
+                            labelElement.InnerText = p.ProcessName;
+                            UserElement.AppendChild(labelElement);
+                            ret = true;
+                            break;
                     }
-                    else
+
+                    //Ön planda çalışıyorsa, görünen adını atıyoruz.
+                    if (!ret)
                     {
-                        XmlElement labelElement = doc.CreateElement("Label");
                         labelElement.InnerText = p.MainWindowTitle;
                         UserElement.AppendChild(labelElement);
                     }
@@ -90,6 +103,8 @@ namespace AppManagement
                     xmleEkle.Formatting = Formatting.Indented;
                     doc.WriteContentTo(xmleEkle);//kayıtlar eklendi
                     xmleEkle.Close();//dosya kapatıldı
+
+                    ret = false;
                 }
             }
         }

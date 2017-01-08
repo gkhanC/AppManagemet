@@ -25,3 +25,12 @@ C:\Users\Sem\Dropbox\Projeler\c#\VSProjectActive\AppManagement\AppManagement\obj
 C:\Users\Sem\Dropbox\Projeler\c#\VSProjectActive\AppManagement\AppManagement\obj\Debug\AppManagement.Main.resources
 C:\Users\Sem\Dropbox\Projeler\c#\VSProjectActive\AppManagement\AppManagement\obj\Debug\AppManagement.Properties.Resources.resources
 C:\Users\Sem\Dropbox\Projeler\c#\VSProjectActive\AppManagement\AppManagement\obj\Debug\AppManagement.csproj.GenerateResource.Cache
+C:\Users\Sem\Documents\GitHub\AppManagemet\AppManagement\bin\Debug\AppManagement.exe.config
+C:\Users\Sem\Documents\GitHub\AppManagemet\AppManagement\obj\Debug\AppManagement.exe
+C:\Users\Sem\Documents\GitHub\AppManagemet\AppManagement\obj\Debug\AppManagement.pdb
+C:\Users\Sem\Documents\GitHub\AppManagemet\AppManagement\bin\Debug\AppManagement.exe
+C:\Users\Sem\Documents\GitHub\AppManagemet\AppManagement\bin\Debug\AppManagement.pdb
+C:\Users\Sem\Documents\GitHub\AppManagemet\AppManagement\obj\Debug\AppManagement.csprojResolveAssemblyReference.cache
+C:\Users\Sem\Documents\GitHub\AppManagemet\AppManagement\obj\Debug\AppManagement.Main.resources
+C:\Users\Sem\Documents\GitHub\AppManagemet\AppManagement\obj\Debug\AppManagement.Properties.Resources.resources
+C:\Users\Sem\Documents\GitHub\AppManagemet\AppManagement\obj\Debug\AppManagement.csproj.GenerateResource.Cache
