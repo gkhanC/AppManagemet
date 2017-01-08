@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AppManagement>
+  <App Name="devenv">
+    <Label>AppManagement (Running) - Microsoft Visual Studio</Label>
+    <StartTime>8.1.2017 17:57:32</StartTime>
+  </App>
+  <App Name="Spotify">
+    <Label>emre aydın - Tam Dört Yıl Olmuş Dün</Label>
+    <StartTime>8.1.2017 17:50:35</StartTime>
+  </App>
+  <App Name="firefox">
+    <Label>semihcelikol/AppManagemet - Mozilla Firefox</Label>
+    <StartTime>8.1.2017 17:55:57</StartTime>
+  </App>
+  <App Name="ONENOTE">
+    <Label>Tüm satırı seçmek - OneNote</Label>
+    <StartTime>8.1.2017 17:55:58</StartTime>
+  </App>
+  <App Name="Dropbox">
+    <Label>Dropbox</Label>
+    <StartTime>8.1.2017 17:56:01</StartTime>
+  </App>
+</AppManagement>
