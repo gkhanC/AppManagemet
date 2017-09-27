@@ -16,14 +16,14 @@ namespace AppManagement
         {
             InitializeComponent();
         }
-        generalProcess classGeneralProcess = new generalProcess();
+        HelperProcess helperProcess = new HelperProcess();
 
         public string selectedPrograms;
 
         private void Main_Load(object sender, EventArgs e)
         {
-            classGeneralProcess.loadXml();
-            classGeneralProcess.listDatagridview("AppManagement.xml", dataGridViewProcessApp);
+            helperProcess.loadXml();
+            helperProcess.listDatagridview("AppManagement.xml", dataGridViewProcessApp);
         }
 
         private void btnRefresh_Click(object sender, EventArgs e)
@@ -36,15 +36,15 @@ namespace AppManagement
             foreach (DataGridViewRow item in dataGridViewProcessApp.SelectedRows)
             {
                 selectedPrograms = item.Cells[2].Value.ToString();
-                classGeneralProcess.killProcess(selectedPrograms);
+                helperProcess.killProcess(selectedPrograms);
             }
             this.refreshGrid();
         }
 
         void refreshGrid()
         {
-            classGeneralProcess.loadXml();
-            classGeneralProcess.listDatagridview("AppManagement.xml", dataGridViewProcessApp);
+            helperProcess.loadXml();
+            helperProcess.listDatagridview("AppManagement.xml", dataGridViewProcessApp);
         }
 
         private void cikisToolStripMenuItem_Click(object sender, EventArgs e)
@@ -60,6 +60,21 @@ namespace AppManagement
         private void hakkındaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Çalışan uygulamaları yönetme programı v1 \nGeliştirici : Semih Çelikol","Hakkında",MessageBoxButtons.OK,MessageBoxIcon.Information);
+        }
+
+        private void btnAllItemKill_Click(object sender, EventArgs e)
+        {
+            DialogResult dg = new DialogResult();
+
+            dg = MessageBox.Show("Açık tüm uygulamalar kapanacak, emin misiniz ?", "Dikkat", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (dg == DialogResult.Yes)
+            {
+                helperProcess.killProcessAll();
+                MessageBox.Show("Tüm uygulamalar kapatıldı.", "Açıklama",MessageBoxButtons.OK,MessageBoxIcon.Information);
+                this.refreshGrid();
+            }
+
         }
     }
 }

@@ -39,6 +39,7 @@
             this.cikisToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.hakkındaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.btnAllItemKill = new System.Windows.Forms.Button();
             this.grpProcessApp.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewProcessApp)).BeginInit();
             this.menuStrip1.SuspendLayout();
@@ -128,11 +129,22 @@
             this.timer1.Interval = 30000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // btnAllItemKill
+            // 
+            this.btnAllItemKill.Location = new System.Drawing.Point(15, 353);
+            this.btnAllItemKill.Name = "btnAllItemKill";
+            this.btnAllItemKill.Size = new System.Drawing.Size(148, 23);
+            this.btnAllItemKill.TabIndex = 4;
+            this.btnAllItemKill.Text = "TÜMÜNÜ SONLANDIR";
+            this.btnAllItemKill.UseVisualStyleBackColor = true;
+            this.btnAllItemKill.Click += new System.EventHandler(this.btnAllItemKill_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(702, 391);
+            this.Controls.Add(this.btnAllItemKill);
             this.Controls.Add(this.btnRefresh);
             this.Controls.Add(this.btnKill);
             this.Controls.Add(this.grpProcessApp);
@@ -165,6 +177,7 @@
         private System.Windows.Forms.ToolStripMenuItem cikisToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem hakkındaToolStripMenuItem;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Button btnAllItemKill;
     }
 }
 

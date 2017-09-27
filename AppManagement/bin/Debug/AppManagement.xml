@@ -1,43 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <AppManagement>
-  <App Name="devenv">
-    <Label>AppManagement (Running) - Microsoft Visual Studio</Label>
-    <StartTime>8.1.2017 19:40:42</StartTime>
-  </App>
-  <App Name="GitHub">
-    <Label>GitHub</Label>
-    <StartTime>8.1.2017 19:36:07</StartTime>
-  </App>
-  <App Name="notepad">
-    <Label>Adsız - Not Defteri</Label>
-    <StartTime>8.1.2017 20:08:19</StartTime>
-  </App>
   <App Name="Taskmgr">
     <Label>Görev Yöneticisi</Label>
-    <StartTime>8.1.2017 20:09:17</StartTime>
-  </App>
-  <App Name="Spotify">
-    <Label>Coldplay - Princess of China</Label>
-    <StartTime>8.1.2017 17:50:35</StartTime>
-  </App>
-  <App Name="Skype">
-    <Label>Skype</Label>
-    <StartTime>8.1.2017 19:41:04</StartTime>
-  </App>
-  <App Name="OUTLOOK">
-    <Label>Gelen Kutusu - semihcelikol@outlook.com - Outlook</Label>
-    <StartTime>8.1.2017 19:34:49</StartTime>
-  </App>
-  <App Name="firefox">
-    <Label>Yeni Yazı Ekle ‹ Semih Çelikol — WordPress - Mozilla Firefox</Label>
-    <StartTime>8.1.2017 17:55:57</StartTime>
-  </App>
-  <App Name="ONENOTE">
-    <Label>Datagridview Seçili satırlarda dönmek - OneNote</Label>
-    <StartTime>8.1.2017 17:55:58</StartTime>
-  </App>
-  <App Name="Dropbox">
-    <Label>Dropbox</Label>
-    <StartTime>8.1.2017 17:56:01</StartTime>
+    <StartTime>27.9.2017 16:24:20</StartTime>
   </App>
 </AppManagement>
