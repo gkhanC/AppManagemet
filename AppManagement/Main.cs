@@ -59,7 +59,7 @@ namespace AppManagement
 
         private void hakkındaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Çalışan uygulamaları yönetme programı v1 \nGeliştirici : Semih Çelikol","Hakkında",MessageBoxButtons.OK,MessageBoxIcon.Information);
+            MessageBox.Show("Çalışan uygulamaları yönetme programı v1 \nGeliştirici : Semih Çelikol \nsemihcelikol.com","Hakkında",MessageBoxButtons.OK,MessageBoxIcon.Information);
         }
 
         private void btnAllItemKill_Click(object sender, EventArgs e)

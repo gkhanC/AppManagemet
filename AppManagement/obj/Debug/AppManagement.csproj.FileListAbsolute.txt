@@ -30,7 +30,6 @@ C:\Users\Sem\Documents\GitHub\AppManagemet\AppManagement\obj\Debug\AppManagement
 C:\Users\Sem\Documents\GitHub\AppManagemet\AppManagement\obj\Debug\AppManagement.pdb
 C:\Users\Sem\Documents\GitHub\AppManagemet\AppManagement\bin\Debug\AppManagement.exe
 C:\Users\Sem\Documents\GitHub\AppManagemet\AppManagement\bin\Debug\AppManagement.pdb
-C:\Users\Sem\Documents\GitHub\AppManagemet\AppManagement\obj\Debug\AppManagement.csprojResolveAssemblyReference.cache
 C:\Users\Sem\Documents\GitHub\AppManagemet\AppManagement\obj\Debug\AppManagement.Main.resources
 C:\Users\Sem\Documents\GitHub\AppManagemet\AppManagement\obj\Debug\AppManagement.Properties.Resources.resources
 C:\Users\Sem\Documents\GitHub\AppManagemet\AppManagement\obj\Debug\AppManagement.csproj.GenerateResource.Cache
@@ -44,3 +43,5 @@ C:\Users\Semih\Documents\GitHub\AppManagemet\AppManagement\obj\Debug\AppManageme
 C:\Users\Semih\Documents\GitHub\AppManagemet\AppManagement\obj\Debug\AppManagement.csproj.CoreCompileInputs.cache
 C:\Users\Semih\Documents\GitHub\AppManagemet\AppManagement\obj\Debug\AppManagement.exe
 C:\Users\Semih\Documents\GitHub\AppManagemet\AppManagement\obj\Debug\AppManagement.pdb
+C:\Users\Sem\Documents\GitHub\AppManagemet\AppManagement\obj\Debug\AppManagement.csprojAssemblyReference.cache
+C:\Users\Sem\Documents\GitHub\AppManagemet\AppManagement\obj\Debug\AppManagement.csproj.CoreCompileInputs.cache

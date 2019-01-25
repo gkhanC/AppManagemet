@@ -1,7 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <AppManagement>
-  <App Name="Taskmgr">
-    <Label>Görev Yöneticisi</Label>
-    <StartTime>27.9.2017 16:24:20</StartTime>
+  <App Name="firefox">
+    <Label>Semih Çelikol | LinkedIn - Mozilla Firefox</Label>
+    <StartTime>25.1.2019 10:20:02</StartTime>
+  </App>
+  <App Name="Dropbox">
+    <Label>Dropbox</Label>
+    <StartTime>25.1.2019 10:16:42</StartTime>
+  </App>
+  <App Name="Dropbox">
+    <Label>Dropbox</Label>
+    <StartTime>25.1.2019 10:16:42</StartTime>
+  </App>
+  <App Name="devenv">
+    <Label>AppManagement (Running) - Microsoft Visual Studio </Label>
+    <StartTime>25.1.2019 11:43:52</StartTime>
+  </App>
+  <App Name="ONENOTE">
+    <Label>Alışveriş siteleri api talebi - OneNote</Label>
+    <StartTime>25.1.2019 10:20:02</StartTime>
+  </App>
+  <App Name="OUTLOOK">
+    <Label>Gelen Kutusu - semihcelikol@outlook.com - Outlook</Label>
+    <StartTime>25.1.2019 10:20:03</StartTime>
+  </App>
+  <App Name="Spotify">
+    <Label>Sokrat St - Proletarya</Label>
+    <StartTime>25.1.2019 10:58:03</StartTime>
+  </App>
+  <App Name="notepad++">
+    <Label>C:\Users\Sem\Desktop\AppManagement.xml - Notepad++</Label>
+    <StartTime>25.1.2019 11:51:10</StartTime>
+  </App>
+  <App Name="Dropbox">
+    <Label>Dropbox</Label>
+    <StartTime>25.1.2019 10:16:42</StartTime>
+  </App>
+  <App Name="notepad">
+    <Label>Adsız - Not Defteri</Label>
+    <StartTime>25.1.2019 10:29:41</StartTime>
   </App>
 </AppManagement>
