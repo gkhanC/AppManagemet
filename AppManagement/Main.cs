@@ -47,7 +47,7 @@ namespace AppManagement
             helperProcess.listDatagridview("AppManagement.xml", dataGridViewProcessApp);
         }
 
-        private void cikisToolStripMenuItem_Click(object sender, EventArgs e)
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
@@ -57,7 +57,7 @@ namespace AppManagement
             this.refreshGrid();
         }
 
-        private void hakkındaToolStripMenuItem_Click(object sender, EventArgs e)
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Çalışan uygulamaları yönetme programı v1 \nGeliştirici : Semih Çelikol \nsemihcelikol.com","Hakkında",MessageBoxButtons.OK,MessageBoxIcon.Information);
         }

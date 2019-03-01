@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <AppManagement>
   <App Name="firefox">
-    <Label>Semih Çelikol | LinkedIn - Mozilla Firefox</Label>
+    <Label>AppManagement2.jpg (JPEG resmi, 705 × 426 piksel) - Mozilla Firefox</Label>
     <StartTime>25.1.2019 10:20:02</StartTime>
   </App>
   <App Name="Dropbox">
@@ -17,7 +17,7 @@
     <StartTime>25.1.2019 11:43:52</StartTime>
   </App>
   <App Name="ONENOTE">
-    <Label>Alışveriş siteleri api talebi - OneNote</Label>
+    <Label>App Management - OneNote</Label>
     <StartTime>25.1.2019 10:20:02</StartTime>
   </App>
   <App Name="OUTLOOK">
@@ -25,11 +25,11 @@
     <StartTime>25.1.2019 10:20:03</StartTime>
   </App>
   <App Name="Spotify">
-    <Label>Sokrat St - Proletarya</Label>
+    <Label>Şanışer - Yalan</Label>
     <StartTime>25.1.2019 10:58:03</StartTime>
   </App>
   <App Name="notepad++">
-    <Label>C:\Users\Sem\Desktop\AppManagement.xml - Notepad++</Label>
+    <Label>new 1 - Notepad++</Label>
     <StartTime>25.1.2019 11:51:10</StartTime>
   </App>
   <App Name="Dropbox">
